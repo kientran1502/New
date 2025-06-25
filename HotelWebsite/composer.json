@@ -1,0 +1,13 @@
+{
+    "description": "PayPal JS SDK Standard Integration - Checkout Flow",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "paypal/paypal-checkout-sdk": "^1.0"
+    },
+    "scripts": {
+        "start": "php -S localhost:8080 -t src"
+    },
+    "config": {}
+}

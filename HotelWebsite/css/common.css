@@ -1,0 +1,63 @@
+ /* Chrome, Safari, Edge, Opera */
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+     margin: 0;
+ }
+
+
+*{
+    font-family: "Mulish", serif;
+
+}
+.h-font{
+    font-family: "Merienda", cursive;
+}
+
+:root{
+    --teal:#0b64e9;
+    --teal_hover:#2715cc;
+}
+.custom-bg{
+    background-color : var(--teal);
+    border: 1px solid var(--teal);
+}
+.custom-bg:hover{
+    background-color : var(--teal_hover) ;
+    border-color : var(--teal_hover);
+}
+
+.h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+.custom-alert{
+    position: fixed;
+    top: 80px;
+    right: 25px;
+    animation: fadeOut 4s forwards;
+    z-index: 1111;
+}
+.setting-alert{
+    position: fixed;
+    top: 80px;
+    right: 25px;
+    z-index: 1111;
+    animation: fadeOut 4s forwards;
+}
+
+/* Hiệu ứng ẩn thông báo */
+@keyframes fadeOut {
+    0% {
+        opacity: 1.5;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+

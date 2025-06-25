@@ -1,0 +1,3336 @@
+REQUEST: Array
+(
+    [paymentId] => PAYID-M572LJQ2YS04510Y4291150E
+    [token] => EC-2K3280710U122043R
+    [PayerID] => HYLFGY5SHS38J
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 2K3280710U122043R
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kiennomoney@gmail.com
+                            [account_id] => HYLFGY5SHS38J
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => No money
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 7.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_192359851
+                            [invoice_id] => ORD_192359851
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien No money
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => No money
+                        )
+
+                    [email_address] => kiennomoney@gmail.com
+                    [payer_id] => HYLFGY5SHS38J
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T10:32:06Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/2K3280710U122043R
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/2K3280710U122043R
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/2K3280710U122043R/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1195
+            [date] => Thu, 09 Jan 2025 10
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => c45a65fa5b45a
+            [server-timing] => traceparent;desc="00-0000000000000000000c45a65fa5b45a-42507159ce34168d-01"
+            [traceparent] => 00-0000000000000000000c45a65fa5b45a-eb27a0594288f58c-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M577HAI65A648448A471451P
+    [token] => EC-62D24454SC7438010
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 62D24454SC7438010
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 2.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_192856709
+                            [invoice_id] => ORD_192856709
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T16:04:17Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/62D24454SC7438010
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/62D24454SC7438010
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/62D24454SC7438010/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Thu, 09 Jan 2025 16
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 79f64f9774aff
+            [server-timing] => traceparent;desc="00-000000000000000000079f64f9774aff-4acdb241c4fb7e80-01"
+            [traceparent] => 00-000000000000000000079f64f9774aff-5b8792052e83a22e-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M577HPQ6M700125RT9639613
+    [token] => EC-50V65169W87062040
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 50V65169W87062040
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 3.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_196956607
+                            [invoice_id] => ORD_196956607
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T16:05:17Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/50V65169W87062040
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/50V65169W87062040
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/50V65169W87062040/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Thu, 09 Jan 2025 16
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 00632e55c3b05
+            [server-timing] => traceparent;desc="00-000000000000000000000632e55c3b05-cb18088dc5fc40b9-01"
+            [traceparent] => 00-000000000000000000000632e55c3b05-27838123e20bd5cb-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M577OBA9PA98680TX3728434
+    [token] => EC-9FS70338VS096135E
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 9FS70338VS096135E
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 4.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_198590161
+                            [invoice_id] => ORD_198590161
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T16:19:16Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/9FS70338VS096135E
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/9FS70338VS096135E
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/9FS70338VS096135E/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Thu, 09 Jan 2025 16
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => ccaf26363f7e4
+            [server-timing] => traceparent;desc="00-0000000000000000000ccaf26363f7e4-4cb135ac1570039b-01"
+            [traceparent] => 00-0000000000000000000ccaf26363f7e4-d9fc0e780572b237-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AAUEY81T35014D3783711H
+    [token] => EC-3EX34230LA0253901
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 3EX34230LA0253901
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 5.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_199977512
+                            [invoice_id] => ORD_199977512
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T17:40:35Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/3EX34230LA0253901
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/3EX34230LA0253901
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/3EX34230LA0253901/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Thu, 09 Jan 2025 17
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 013f48fa30119
+            [server-timing] => traceparent;desc="00-0000000000000000000013f48fa30119-abaffcb861c19a30-01"
+            [traceparent] => 00-0000000000000000000013f48fa30119-fae84a58c34f06f6-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AAUQA8MB89423H5710493F
+    [token] => EC-08253940PN793523X
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 08253940PN793523X
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 2.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_199061422
+                            [invoice_id] => ORD_199061422
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T17:41:20Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/08253940PN793523X
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/08253940PN793523X
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/08253940PN793523X/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Thu, 09 Jan 2025 17
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 47bee7c5be4da
+            [server-timing] => traceparent;desc="00-000000000000000000047bee7c5be4da-1583129dec8ea91f-01"
+            [traceparent] => 00-000000000000000000047bee7c5be4da-096b4b458c854469-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AAUZY4JR2018032693122C
+    [token] => EC-2VD78672WA812505X
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 2VD78672WA812505X
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 9.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_192652453
+                            [invoice_id] => ORD_192652453
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T17:41:59Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/2VD78672WA812505X
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/2VD78672WA812505X
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/2VD78672WA812505X/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Thu, 09 Jan 2025 17
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 61096ab17ef21
+            [server-timing] => traceparent;desc="00-000000000000000000061096ab17ef21-35d5e4f9708def9e-01"
+            [traceparent] => 00-000000000000000000061096ab17ef21-bccd32558296ba2c-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AAU7Q4J280210R20938904
+    [token] => EC-0G234775JC6538138
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 0G234775JC6538138
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 13.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_19148709
+                            [invoice_id] => ORD_19148709
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T17:42:22Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/0G234775JC6538138
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/0G234775JC6538138
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/0G234775JC6538138/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1172
+            [date] => Thu, 09 Jan 2025 17
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 142ff1a11f741
+            [server-timing] => traceparent;desc="00-0000000000000000000142ff1a11f741-bc50489a90949246-01"
+            [traceparent] => 00-0000000000000000000142ff1a11f741-cfb5b2d137a2a4af-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AAVKY9CD243348T6474005
+    [token] => EC-94M966750U8604235
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 94M966750U8604235
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 19.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_196352745
+                            [invoice_id] => ORD_196352745
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T17:43:07Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/94M966750U8604235
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/94M966750U8604235
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/94M966750U8604235/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1174
+            [date] => Thu, 09 Jan 2025 17
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => d6fbf22aa8d9e
+            [server-timing] => traceparent;desc="00-0000000000000000000d6fbf22aa8d9e-ce4c5cec24927d3a-01"
+            [traceparent] => 00-0000000000000000000d6fbf22aa8d9e-2aafaadf5010d63b-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AAWEY1PA750528N3974436
+    [token] => EC-4B0122037Y236963T
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 4B0122037Y236963T
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 1.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_195942753
+                            [invoice_id] => ORD_195942753
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T17:44:51Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/4B0122037Y236963T
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/4B0122037Y236963T
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/4B0122037Y236963T/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Thu, 09 Jan 2025 17
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 6d140409084c1
+            [server-timing] => traceparent;desc="00-00000000000000000006d140409084c1-6640d840fc2d2c93-01"
+            [traceparent] => 00-00000000000000000006d140409084c1-d3affb078e6368c5-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AAWYI79S56085XL916011P
+    [token] => EC-8G98423978521382D
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 8G98423978521382D
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 1.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_191038249
+                            [invoice_id] => ORD_191038249
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T17:46:09Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/8G98423978521382D
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/8G98423978521382D
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/8G98423978521382D/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Thu, 09 Jan 2025 17
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => c19c5f8778c00
+            [server-timing] => traceparent;desc="00-0000000000000000000c19c5f8778c00-02e376baef1c3809-01"
+            [traceparent] => 00-0000000000000000000c19c5f8778c00-480d32b43b7d82ab-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AAXQI8KP05870NY525844A
+    [token] => EC-2RA67159RC393535X
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 2RA67159RC393535X
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 2.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_198911175
+                            [invoice_id] => ORD_198911175
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T17:47:45Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/2RA67159RC393535X
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/2RA67159RC393535X
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/2RA67159RC393535X/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Thu, 09 Jan 2025 17
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 4c73d3c2ed73c
+            [server-timing] => traceparent;desc="00-00000000000000000004c73d3c2ed73c-75ecaed1f821ae32-01"
+            [traceparent] => 00-00000000000000000004c73d3c2ed73c-1e740ec35eda39d4-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AAYHA1TM451470U1528025
+    [token] => EC-73T95578CG0751234
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 73T95578CG0751234
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 2.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_191894449
+                            [invoice_id] => ORD_191894449
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T17:49:16Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/73T95578CG0751234
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/73T95578CG0751234
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/73T95578CG0751234/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Thu, 09 Jan 2025 17
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 2775fa6a2e6eb
+            [server-timing] => traceparent;desc="00-00000000000000000002775fa6a2e6eb-5355edeb7a480bd8-01"
+            [traceparent] => 00-00000000000000000002775fa6a2e6eb-ae15831200842b59-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6ACAPY52W20693N23190421
+    [token] => EC-7BU21649292908028
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 7BU21649292908028
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 2.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_196634624
+                            [invoice_id] => ORD_196634624
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T19:15:10Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/7BU21649292908028
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/7BU21649292908028
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/7BU21649292908028/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Thu, 09 Jan 2025 19
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => c965e27c94bf6
+            [server-timing] => traceparent;desc="00-0000000000000000000c965e27c94bf6-2b7e0ed0c4d2d9fa-01"
+            [traceparent] => 00-0000000000000000000c965e27c94bf6-ba1fe8d5c01f875a-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6ACAYA1P8964494L172751B
+    [token] => EC-04D55707NX103912T
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 04D55707NX103912T
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 1.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_198154252
+                            [invoice_id] => ORD_198154252
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T19:15:43Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/04D55707NX103912T
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/04D55707NX103912T
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/04D55707NX103912T/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Thu, 09 Jan 2025 19
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 06a3179ff4de2
+            [server-timing] => traceparent;desc="00-000000000000000000006a3179ff4de2-89532046504d5a12-01"
+            [traceparent] => 00-000000000000000000006a3179ff4de2-02b2ddb31e03af7b-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6ACA5I8ES67641HL338634G
+    [token] => EC-1A311042XM346854U
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 1A311042XM346854U
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 1.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_196659425
+                            [invoice_id] => ORD_196659425
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T19:16:04Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/1A311042XM346854U
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/1A311042XM346854U
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/1A311042XM346854U/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Thu, 09 Jan 2025 19
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 6c88ba543eb64
+            [server-timing] => traceparent;desc="00-00000000000000000006c88ba543eb64-b2f75eb71a9aa395-01"
+            [traceparent] => 00-00000000000000000006c88ba543eb64-505fa5ae846990a4-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6ACBDY9PC05150VG289435P
+    [token] => EC-8XC39066X13380309
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 8XC39066X13380309
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 31.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_199955405
+                            [invoice_id] => ORD_199955405
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T19:16:30Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/8XC39066X13380309
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/8XC39066X13380309
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/8XC39066X13380309/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1174
+            [date] => Thu, 09 Jan 2025 19
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => a8b694f6b9577
+            [server-timing] => traceparent;desc="00-0000000000000000000a8b694f6b9577-49b55a5959c13541-01"
+            [traceparent] => 00-0000000000000000000a8b694f6b9577-69937814e487ba7e-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6ADPKI8BS57243K4604792K
+    [token] => EC-47W60097361257002
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 47W60097361257002
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 8.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_19212278
+                            [invoice_id] => ORD_19212278
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-09T20:55:05Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/47W60097361257002
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/47W60097361257002
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/47W60097361257002/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1171
+            [date] => Thu, 09 Jan 2025 20
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 3929c8eaad744
+            [server-timing] => traceparent;desc="00-00000000000000000003929c8eaad744-1b2fe37406121c4d-01"
+            [traceparent] => 00-00000000000000000003929c8eaad744-6f48356d05216b0e-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6ASBJA91A05630467051818
+    [token] => EC-9AF17976CF245661N
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 9AF17976CF245661N
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 1.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_19567875
+                            [invoice_id] => ORD_19567875
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-10T13:29:07Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/9AF17976CF245661N
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/9AF17976CF245661N
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/9AF17976CF245661N/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1171
+            [date] => Fri, 10 Jan 2025 13
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 170b53ed249b6
+            [server-timing] => traceparent;desc="00-0000000000000000000170b53ed249b6-758d7c329cec7990-01"
+            [traceparent] => 00-0000000000000000000170b53ed249b6-cef3f66fc026fcd9-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AUOCI11462499SP4546136
+    [token] => EC-36T90291F71122615
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 36T90291F71122615
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 1.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_225730212
+                            [invoice_id] => ORD_225730212
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-10T16:12:56Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/36T90291F71122615
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/36T90291F71122615
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/36T90291F71122615/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Fri, 10 Jan 2025 16
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => f4d2210c62e3c
+            [server-timing] => traceparent;desc="00-0000000000000000000f4d2210c62e3c-4c3a4900a2e0352a-01"
+            [traceparent] => 00-0000000000000000000f4d2210c62e3c-5c899d100c24f570-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AUP5Y95027670HK208492J
+    [token] => EC-34033738HH007344N
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 34033738HH007344N
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 2.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_229244116
+                            [invoice_id] => ORD_229244116
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-10T16:16:55Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/34033738HH007344N
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/34033738HH007344N
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/34033738HH007344N/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Fri, 10 Jan 2025 16
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 63b39fd1c3de9
+            [server-timing] => traceparent;desc="00-000000000000000000063b39fd1c3de9-840e2d41fd532600-01"
+            [traceparent] => 00-000000000000000000063b39fd1c3de9-969b988121b286c6-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AUSHY5NP51323CW598435W
+    [token] => EC-37781193VF737212E
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 37781193VF737212E
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 8.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_226906580
+                            [invoice_id] => ORD_226906580
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-10T16:21:50Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/37781193VF737212E
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/37781193VF737212E
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/37781193VF737212E/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Fri, 10 Jan 2025 16
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => 4c5d12c012f4b
+            [server-timing] => traceparent;desc="00-00000000000000000004c5d12c012f4b-6b5fbc766dd61e19-01"
+            [traceparent] => 00-00000000000000000004c5d12c012f4b-1292574c22562685-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AUWYQ7B053540B1526921B
+    [token] => EC-28D74447AP453352C
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 28D74447AP453352C
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 2.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_222897966
+                            [invoice_id] => ORD_222897966
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-10T16:31:30Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/28D74447AP453352C
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/28D74447AP453352C
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/28D74447AP453352C/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Fri, 10 Jan 2025 16
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => f7e77e8532094
+            [server-timing] => traceparent;desc="00-0000000000000000000f7e77e8532094-d7d8f951fce41b7a-01"
+            [traceparent] => 00-0000000000000000000f7e77e8532094-0b769fb764c0245b-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
+REQUEST: Array
+(
+    [paymentId] => PAYID-M6AUXAY6JN55017B6303094P
+    [token] => EC-5KU71333DD865771E
+    [PayerID] => FSGATY3DY97VS
+)
+PayPal Response: PayPalHttp\HttpResponse Object
+(
+    [statusCode] => 200
+    [result] => stdClass Object
+        (
+            [id] => 5KU71333DD865771E
+            [intent] => CAPTURE
+            [status] => APPROVED
+            [payment_source] => stdClass Object
+                (
+                    [paypal] => stdClass Object
+                        (
+                            [email_address] => kienbuyer@gmail.com
+                            [account_id] => FSGATY3DY97VS
+                            [account_status] => VERIFIED
+                            [name] => stdClass Object
+                                (
+                                    [given_name] => Kien
+                                    [surname] => Le
+                                )
+
+                            [address] => stdClass Object
+                                (
+                                    [country_code] => US
+                                )
+
+                        )
+
+                )
+
+            [purchase_units] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => stdClass Object
+                                (
+                                    [currency_code] => USD
+                                    [value] => 2.00
+                                )
+
+                            [payee] => stdClass Object
+                                (
+                                    [email_address] => kienseller@gmail.com
+                                )
+
+                            [description] => Payment for Order ID: ORD_229233969
+                            [invoice_id] => ORD_229233969
+                            [shipping] => stdClass Object
+                                (
+                                    [name] => stdClass Object
+                                        (
+                                            [full_name] => Kien Le
+                                        )
+
+                                    [address] => stdClass Object
+                                        (
+                                            [address_line_1] => 1 Main St
+                                            [admin_area_2] => San Jose
+                                            [admin_area_1] => CA
+                                            [postal_code] => 95131
+                                            [country_code] => US
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [payer] => stdClass Object
+                (
+                    [name] => stdClass Object
+                        (
+                            [given_name] => Kien
+                            [surname] => Le
+                        )
+
+                    [email_address] => kienbuyer@gmail.com
+                    [payer_id] => FSGATY3DY97VS
+                    [address] => stdClass Object
+                        (
+                            [country_code] => US
+                        )
+
+                )
+
+            [create_time] => 2025-01-10T16:32:02Z
+            [links] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/5KU71333DD865771E
+                            [rel] => self
+                            [method] => GET
+                        )
+
+                    [1] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/5KU71333DD865771E
+                            [rel] => update
+                            [method] => PATCH
+                        )
+
+                    [2] => stdClass Object
+                        (
+                            [href] => https://api.sandbox.paypal.com/v2/checkout/orders/5KU71333DD865771E/capture
+                            [rel] => capture
+                            [method] => POST
+                        )
+
+                )
+
+        )
+
+    [headers] => Array
+        (
+            [] => 
+            [content-type] => application/json
+            [content-length] => 1173
+            [date] => Fri, 10 Jan 2025 16
+            [access-control-expose-headers] => Server-Timing
+            [application_id] => APP-80W284485P519543T
+            [cache-control] => max-age=0, no-cache, no-store, must-revalidate
+            [caller_acct_num] => LZK469QZQMS64
+            [paypal-debug-id] => b9998bb5fb74a
+            [server-timing] => traceparent;desc="00-0000000000000000000b9998bb5fb74a-38d84e336943aab0-01"
+            [traceparent] => 00-0000000000000000000b9998bb5fb74a-d30cbb334cb66c91-01
+            [vary] => Accept-Encoding
+            [http_x_pp_az_locator] => ccg18.slc
+            [strict-transport-security] => max-age=31536000; includeSubDomains
+        )
+
+)
